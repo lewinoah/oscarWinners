@@ -101,3 +101,7 @@ README.md         # This file
 - **API key**: Never commit your OMDb API key. Use `OMDB_API_KEY` (or a local override) as above.
 - **Rate limits**: The free OMDb tier has daily limits. The app caches results in SQLite and only syncs when you call `POST /api/movies/sync` (or when you add a sync-on-startup option), so repeated page loads do not hit OMDb.
 - **Database**: SQLite file path is set in `application.properties` (`spring.datasource.url`). Default is `jdbc:sqlite:${user.dir}/oscar.db`.
+
+
+Final Look
+
