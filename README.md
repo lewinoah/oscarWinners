@@ -103,5 +103,5 @@ README.md         # This file
 - **Database**: SQLite file path is set in `application.properties` (`spring.datasource.url`). Default is `jdbc:sqlite:${user.dir}/oscar.db`.
 
 
-Final Look
+## Final Look
 ![Screenshot]({723B8B4F-7910-4316-B059-FA9304FF80AF}.png)
