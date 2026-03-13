@@ -1,0 +1,40 @@
+:root {
+  --bg: #0f0e12;
+  --surface: #1a1820;
+  --surface2: #25222d;
+  --text: #e8e4ef;
+  --muted: #8b8499;
+  --accent: #c9a227;
+  --accent-dim: #9a7b1a;
+  --border: #2d2a36;
+  --success: #5a9b6e;
+  --error: #c75c5c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

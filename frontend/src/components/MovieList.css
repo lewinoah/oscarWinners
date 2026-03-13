@@ -1,0 +1,5 @@
+.movie-list-empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 2rem;
+}
